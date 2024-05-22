@@ -5,7 +5,7 @@ Data Science project to investigate sea surface temperatures in time series.
 Spectral analysis on 80 years of sea surface temperatures in the North Pacific Ocean was done first using a discrete fourier transform. The most prevalent frequencies were determined, before a low-pass butterworth filter was applied to reduce the noise of frequencies from periods less than one year. The most prevalent frequencies in the filtered data were determined. Then, many autoregression models were trained on the data using various k/lags. The model with the lowest mse on the testing data was then tasked with predicting sea surface temperatures 20 years into the future. See `Climate_Data_Analysis.ipynb` for the full analysis.
 
 ## Report
-'climate_report.docx' contains the full report on the results of the analysis.
+`Climate_Report.docx` contains the full report on the results of the analysis.
 
 ## Analysis
 `Climate_Data_Analysis.ipynb` is the notebook that contains the full analysis.
